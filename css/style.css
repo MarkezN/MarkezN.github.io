@@ -1,9 +1,14 @@
 
+.back {
 
-.nav-link {
-    position: relative;
-    text-decoration: none;
-}
+    background-image: url('../img/banner2.jpg'); 
+    background-size: cover; 
+    background-position: bottom 40% left 30%; 
+    background-repeat: no-repeat;
+    height: 650px;
+
+}    
+
 
 .nav-link::after {
     content: '';
@@ -25,7 +30,10 @@
     font-size: 1.5em;
     margin-right: 70px;
    
-   font-weight: 400;
+   font-weight: bold;
+   position: relative;
+   text-decoration: none;
+  
  
 }
 .nav-link:hover {
@@ -34,6 +42,22 @@
 
  .img{
     mix-blend-mode: multiply;
+   
 } 
+.dishText{
+
+    color: #a63a3a;
+ 
+
+    
+}
+.text-center-all {
+    text-align: center;
+}
+.card-cover {
+    min-height: 280px;
+}
+
+    
  
   
