@@ -29,7 +29,10 @@
    text-decoration: none;
 }
 .nav-link:hover {
-    color: red; 
+    color: #a63a3a; 
+}
+.nav-link:visited {
+    color: #a63a3a; 
 }
  .img{
     mix-blend-mode: multiply;
