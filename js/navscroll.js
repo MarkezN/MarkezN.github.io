@@ -17,10 +17,17 @@ function scrollFuncMeni()
 function scrollFuncAbout()
 {
     var contain = document.querySelector('.container');
+//    var aboutText = document.querySelector('.about');
+
 
     if(contain){
-        window.scrollTo({top: contain.scrollHeight, behavior: 'smooth'});
-    }else {
+       window.scrollTo({top: contain.scrollHeight, behavior: 'smooth'});
+        //aboutText.classList.add('visible');
+       // aboutText.innerHTML = "scrolled!";
+    }
+    else {
         console.log("Not found");
     }
 }
+
+

@@ -1,4 +1,28 @@
 
+/* Initial state for divs to be animated */
+.animated {
+    opacity: 0;
+    transition: opacity 5s ease-out, transform 4s ease-out;
+}
+
+/* Make divs visible when they should be */
+.animated.visible {
+    opacity: 1;
+  
+}
+
+
+.about {
+    opacity: 0;
+    transition: opacity 5s ease-out, transform 4s ease-out;
+}
+
+/* Make divs visible when they should be */
+.about.visible {
+    opacity: 1;
+  
+}
+
 .back {
     background-image: url('../img/banner2.jpg'); 
     background-size: cover; 
@@ -21,7 +45,7 @@
     width: 100%;
 }
 .nav-link {
-    color: #a63a3a;
+    color: #5e5e5e;
     font-size: 1.5em;
     margin-right: 70px;
    font-weight: bold;
@@ -38,7 +62,7 @@
     mix-blend-mode: multiply;
 } 
 .dishText{
-    color: #a63a3a;
+    color: #5e5e5e;
 }
 .text-center-all {
     text-align: center;
@@ -53,8 +77,12 @@
     padding-top: 20px;
 }
 .aboutUs {
-    padding-top: 40px;
+ 
+    padding-top: 100px;
 }
+
+
+
 
   
 
