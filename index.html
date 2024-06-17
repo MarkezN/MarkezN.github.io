@@ -11,25 +11,44 @@
   </head>
   <body>
         <div class="back">
-            <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4">
+            <header class="d-flex flex-wrap align-items-center justify-content-between py-3 mb-4">
                 <div class="col-md-3 mb-2 mb-md-0">
                     <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
                         <img class="img" src="img/logo2.jpg" alt="logo">
                     </a>
                 </div>
-                <ul class="nav col-12 col-md-auto mb-2 justify-content-md-center">
-                    <li><a href="#" class="nav-link" onclick="scrollFuncMeni(); return false;">Meni</a></li>
-                    <li><a href="#" class="nav-link" id="oNama" onclick="scrollFuncAbout(); return false;">O nama</a></li>
-                    <li><a href="#" class="nav-link" id="blog">Blog</a></li>
-                    <li><a href="#" class="nav-link" id="kontakt">Kontakt</a></li>
-                </ul>
+                <nav class="nav col-12 col-md-auto mb-2 justify-content-center">
+                    <a href="#" class="nav-link d-block text-center" onclick="scrollFuncMeni(); return false;">Meni</a>
+                    <a href="#" class="nav-link d-block text-center" id="oNama" onclick="scrollFuncAbout(); return false;">O nama</a>
+                    <a href="#" class="nav-link d-block text-center" id="blog">Blog</a>
+                    <a href="#" class="nav-link d-block text-center" id="kontakt">Kontakt</a>
+                </nav>
             </header>
         </div>
 
 
         <div class="container">
 
-            <h2 class="pb-2 border-bottom" style="margin-top: 60px; color: #5e5e5e;">MENI</h2>
+            <h2 class="pb-2 border-bottom" style="margin-top: 100px; color: #5e5e5e;">MENI</h2>
+
+
+            <div class="row justify-content-center py-5">
+
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-3 d-flex">
+                        <button class="btn btn-custom w-100" type="button">Sva jela</button>
+                    </div>    
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-3 d-flex">
+                        <button class="btn btn-custom w-100" type="button">Prilozi</button>
+                    </div> 
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-3 d-flex">
+                        <button class="btn btn-custom w-100" type="button">Salate</button>
+                    </div> 
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-3 d-flex">
+                        <button class="btn btn-custom w-100" type="button">Kolaci</button>
+                    </div> 
+              </div>
+
+
 
             <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
                 <div class="animated col">

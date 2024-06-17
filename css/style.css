@@ -1,23 +1,23 @@
-
-/* Initial state for divs to be animated */
+@media (max-width: 576px) {
+    .nav-link {
+        width: 100%;
+    }
+}
 .animated {
     opacity: 0;
     transition: opacity 5s ease-out, transform 4s ease-out;
 }
 
-/* Make divs visible when they should be */
 .animated.visible {
     opacity: 1;
   
 }
-
 
 .about {
     opacity: 0;
     transition: opacity 5s ease-out, transform 4s ease-out;
 }
 
-/* Make divs visible when they should be */
 .about.visible {
     opacity: 1;
   
@@ -47,10 +47,11 @@
 .nav-link {
     color: #5e5e5e;
     font-size: 1.5em;
-    margin-right: 70px;
+    margin-right: 75px;
    font-weight: bold;
    position: relative;
    text-decoration: none;
+   padding: 0.5rem 1rem;
 }
 .nav-link:hover {
     color: #a63a3a; 
@@ -60,6 +61,7 @@
 }
  .img{
     mix-blend-mode: multiply;
+ 
 } 
 .dishText{
     color: #5e5e5e;
@@ -79,6 +81,19 @@
 .aboutUs {
  
     padding-top: 100px;
+}
+.btn-custom {
+    padding: 15px 30px; 
+
+    font-size: 1.5rem;
+    background-color: #5e5e5e;
+    color: white;
+    
+}
+.btn-custom:hover {
+  
+    background-color: #5e5e5e; 
+    color: white;
 }
 
 
