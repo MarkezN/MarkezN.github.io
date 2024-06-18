@@ -35,77 +35,78 @@
             <div class="row justify-content-center py-5">
 
                     <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-3 d-flex">
-                        <button class="btn btn-custom w-100" type="button">Sva jela</button>
+                        <button class="btn btn-custom w-100 active" type="button" data-filter="all">Sva jela</button>
                     </div>    
                     <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-3 d-flex">
-                        <button class="btn btn-custom w-100" type="button">Prilozi</button>
+                        <button class="btn btn-custom w-100" type="button" data-filter="meat">Meso</button>
                     </div> 
                     <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-3 d-flex">
-                        <button class="btn btn-custom w-100" type="button">Salate</button>
+                        <button class="btn btn-custom w-100" type="button" data-filter="corba">Corbe</button>
                     </div> 
                     <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-3 d-flex">
-                        <button class="btn btn-custom w-100" type="button">Kolaci</button>
+                        <button class="btn btn-custom w-100" type="button" data-filter="lenja">Kolaci</button>
                     </div> 
               </div>
 
 
+            <div class="dishes-container">
+                <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+                    <div class="dish col tikvice">
+                        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('img/Tikvice.jpg'); background-size: cover; background-position: left 25% bottom 25%;">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="text-align: center;"></h3>
+                            </div>
+                        </div>
+                        <div class="col text-center mt-3">
+                            <h4 class="dishText">Punjene tikvice sa pire krompirom</h4>
+                        </div>
+                    </div>
+                    <div class="dish col meat">
+                        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('img/gulash.jpg'); background-position: left 35%;">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                            </div>
+                        </div>
+                        <div class="col text-center mt-3">
+                            <h4 class="dishText">Gulaš</h4>
+                        </div>
+                    </div>
+                    <div class="dish col meat">
+                        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('img/Pohovano\ belo\ meso\ i\ pire.jpg'); background-position: left 5%;">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                            </div>
+                        </div>
+                        <div class="col text-center mt-3">
+                            <h4 class="dishText">Pohovano belo meso sa pire krompirom</h4>
+                        </div>
+                    </div>
+                </div>
 
-            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
-                <div class="animated col">
-                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('img/Tikvice.jpg'); background-size: cover; background-position: left 25% bottom 25%;">
-                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="text-align: center;"></h3>
+                <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+                    <div class="dish col lenja">
+                        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('img/Lenja\ pita\ visnje\ -\ mak.jpg'); background-size: cover;">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                            </div>
+                        </div>
+                        <div class="col text-center mt-3">
+                            <h4 class="dishText">Lenja pita višnja / mak</h4>
                         </div>
                     </div>
-                    <div class="col text-center mt-3">
-                        <h4 class="dishText">Punjene tikvice sa pire krompirom</h4>
-                    </div>
-                </div>
-                <div class="animated col">
-                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('img/gulash.jpg'); background-position: left 35%;">
-                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <div class="dish col meat">
+                        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('img/Pohovano\ belo\ i\ pire2.jpg');background-size: cover; background-position:  right 35%;">
+                    
+                        </div>
+                        <div class="col text-center mt-3">
+                            <h4 class="dishText">Raskošteni batak sa pireom</h4>
                         </div>
                     </div>
-                    <div class="col text-center mt-3">
-                        <h4 class="dishText">Gulaš</h4>
-                    </div>
-                </div>
-                <div class="animated col">
-                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('img/Pohovano\ belo\ meso\ i\ pire.jpg'); background-position: left 5%;">
-                        <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                    <div class="dish col corba">
+                        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('img/bela\ corba.jpg'); background-size: cover; background-position: left 50%;">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                            </div>
                         </div>
-                    </div>
-                    <div class="col text-center mt-3">
-                        <h4 class="dishText">Pohovano belo meso sa pire krompirom</h4>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
-                <div class="animated col">
-                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('img/Lenja\ pita\ visnje\ -\ mak.jpg'); background-size: cover;">
-                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                        <div class="col text-center mt-3">
+                            <h4 class="dishText">Bela čorba</h4>
                         </div>
-                    </div>
-                    <div class="col text-center mt-3">
-                        <h4 class="dishText">Lenja pita višnja / mak</h4>
-                    </div>
-                </div>
-                <div class="animated col">
-                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('img/Pohovano\ belo\ i\ pire2.jpg');background-size: cover; background-position:  right 35%;">
-                 
-                    </div>
-                    <div class="col text-center mt-3">
-                        <h4 class="dishText">Raskošteni batak sa pireom</h4>
-                    </div>
-                </div>
-                <div class="animated col">
-                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('img/bela\ corba.jpg'); background-size: cover; background-position: left 50%;">
-                        <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                        </div>
-                    </div>
-                    <div class="col text-center mt-3">
-                        <h4 class="dishText">Bela čorba</h4>
                     </div>
                 </div>
             </div>
@@ -125,6 +126,6 @@
         </div>
    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script src="js/scrollAnimation.js"></script>
+    <script src="js/scrollAnimationAndFilters.js"></script>
   </body>
 </html>

@@ -10,12 +10,17 @@
    
     }
 }
-.animated {
+.dishes-container .dish.hidden {
+    display: none;
+}
+
+
+.dish {
     opacity: 0;
     transition: opacity 5s ease-out, transform 4s ease-out;
 }
 
-.animated.visible {
+.dish.visible {
     opacity: 1;
   
 }
@@ -46,7 +51,7 @@
     margin-right: 75px;
    font-weight: bold;
    position: relative;
-   text-decoration: none;
+
    padding: 0.5rem 1rem;
 }
 .nav-link:hover {
